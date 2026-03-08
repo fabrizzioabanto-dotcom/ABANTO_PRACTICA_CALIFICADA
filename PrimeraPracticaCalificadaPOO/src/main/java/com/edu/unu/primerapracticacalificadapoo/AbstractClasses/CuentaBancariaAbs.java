@@ -58,6 +58,6 @@ public abstract class CuentaBancariaAbs {
     public abstract void retirar(double monto);
 
     public void consultarSueldo(){
-        System.out.println("Saldo actual de la cuenta" + numeroCuenta + ": " + saldo);
+        System.out.println("Saldo actual de la cuenta" + nombrePropietario + ": " + saldo);
     }
 }
